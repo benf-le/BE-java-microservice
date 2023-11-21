@@ -9,14 +9,19 @@ public class UpdateEmployeeCommand {
 	private String lastName;
 	private String kin;
 	private Boolean isDisciplined;
+
+	private String role;
+	private Boolean status;
 	public UpdateEmployeeCommand(String employeeId, String firstName, String lastName, String kin,
-			Boolean isDisciplined) {
+			Boolean isDisciplined, String role, Boolean status) {
 		super();
 		this.employeeId = employeeId;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.kin = kin;
 		this.isDisciplined = isDisciplined;
+		this.role = role;
+		this.status = status;
 	}
 	public String getEmployeeId() {
 		return employeeId;
@@ -48,5 +53,20 @@ public class UpdateEmployeeCommand {
 	public void setIsDisciplined(Boolean isDisciplined) {
 		this.isDisciplined = isDisciplined;
 	}
-	
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	public Boolean getStatus() {
+		return status;
+	}
+
+	public void setStatus(Boolean status) {
+		this.status = status;
+	}
 }

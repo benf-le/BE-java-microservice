@@ -22,7 +22,10 @@ public class EmployeeAggregate {
 	private String lastName;
 	private String kin;
 	private Boolean isDisciplined;
-	
+
+	private String role;
+	private Boolean status;
+
 	public EmployeeAggregate() {}
 	
 	@CommandHandler
@@ -50,6 +53,8 @@ public class EmployeeAggregate {
 		this.lastName = event.getLastName();
 		this.kin = event.getKin();
 		this.isDisciplined = event.getIsDisciplined();
+		this.role = event.getRole();
+		this.status = event.getStatus();
 	}
 	@EventSourcingHandler
 	public void on(EmployeeUpdatedEvent event) {
@@ -58,6 +63,8 @@ public class EmployeeAggregate {
 		this.lastName = event.getLastName();
 		this.kin = event.getKin();
 		this.isDisciplined = event.getIsDisciplined();
+		this.role = event.getRole();
+		this.status = event.getStatus();
 	}
 	@EventSourcingHandler
 	public void on(EmployeeDeletedEvent event) {

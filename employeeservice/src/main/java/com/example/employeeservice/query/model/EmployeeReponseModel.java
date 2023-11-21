@@ -6,6 +6,10 @@ public class EmployeeReponseModel {
 	private String lastName;
 	private String kin;
 	private Boolean isDisciplined;
+
+	private String role;
+	private Boolean status;
+
 	public String getEmployeeId() {
 		return employeeId;
 	}
@@ -35,5 +39,21 @@ public class EmployeeReponseModel {
 	}
 	public void setIsDisciplined(Boolean isDisciplined) {
 		this.isDisciplined = isDisciplined;
+	}
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	public Boolean getStatus() {
+		return status;
+	}
+
+	public void setStatus(Boolean status) {
+		this.status = status;
 	}
 }

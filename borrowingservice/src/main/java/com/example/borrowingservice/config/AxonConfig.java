@@ -13,7 +13,7 @@ public class AxonConfig {
         XStream xStream = new XStream();
       
         xStream.allowTypesByWildcard(new String[] {
-                "com.tanthanh.**"
+                "com.example.**"
         });
         return xStream;
     }
