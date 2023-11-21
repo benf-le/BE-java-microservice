@@ -26,8 +26,15 @@ public class BookAggregate {
 	private String name;
 	private String author;
 	private Boolean isReady;
-	
-	 public BookAggregate() {
+
+	private String imageUrl;
+
+	private Integer price;
+
+
+
+
+	public BookAggregate() {
 		 
 	    }
 	 @CommandHandler
@@ -71,6 +78,8 @@ public class BookAggregate {
 			this.author = event.getAuthor();
 			this.isReady = event.getIsReady();
 			this.name = event.getName();
+			this.imageUrl = event.getImageUrl();
+			this.price = event.getPrice();
 	    }
 	 @EventSourcingHandler
 	    public void on(BookUpdatedEvent event) {
@@ -78,6 +87,8 @@ public class BookAggregate {
 			this.author = event.getAuthor();
 			this.isReady = event.getIsReady();
 			this.name = event.getName();
+			this.imageUrl = event.getImageUrl();
+			this.price = event.getPrice();
 	    }
 	 @EventSourcingHandler
 	    public void on(BookDeletedEvent event) {

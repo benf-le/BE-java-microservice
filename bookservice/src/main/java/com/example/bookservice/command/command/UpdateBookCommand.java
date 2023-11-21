@@ -8,15 +8,20 @@ public class UpdateBookCommand {
 	private String name;
 	private String author;
 	private Boolean isReady;
+	private String imageUrl;
+
+	private Integer price;
+
 	
 	
-	
-	public UpdateBookCommand(String bookId, String name, String author, Boolean isReady) {
+	public UpdateBookCommand(String bookId, String name, String author, Boolean isReady, String imageUrl, Integer price) {
 		super();
 		this.bookId = bookId;
 		this.name = name;
 		this.author = author;
 		this.isReady = isReady;
+		this.imageUrl = imageUrl;
+		this.price = price;
 	}
 	public String getBookId() {
 		return bookId;
@@ -42,4 +47,21 @@ public class UpdateBookCommand {
 	public void setIsReady(Boolean isReady) {
 		this.isReady = isReady;
 	}
+
+	public String getImageUrl() {
+		return imageUrl;
+	}
+
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
+	}
+
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+
 }

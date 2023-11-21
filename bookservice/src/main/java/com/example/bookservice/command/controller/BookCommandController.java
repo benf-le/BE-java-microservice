@@ -27,14 +27,14 @@ public class BookCommandController {
 	@PostMapping
 	public String addBook(@RequestBody BookRequestModel model) {
 		CreateBookCommand command = 
-				new CreateBookCommand(UUID.randomUUID().toString(),model.getName(), model.getAuthor(), true);
+				new CreateBookCommand(UUID.randomUUID().toString(),model.getName(), model.getAuthor(), true, model.getImageUrl(), model.getPrice());
 		commandGateway.sendAndWait(command);
 		return "added Book";
 	}
 	@PutMapping
 	public String updateBook(@RequestBody BookRequestModel model) {
 		UpdateBookCommand command = 
-				new UpdateBookCommand(model.getBookId(),model.getName(), model.getAuthor(), model.getIsReady());
+				new UpdateBookCommand(model.getBookId(),model.getName(), model.getAuthor(), model.getIsReady(), model.getImageUrl(), model.getPrice());
 		commandGateway.sendAndWait(command);
 		return "updated Book";
 	}

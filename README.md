@@ -1,7 +1,7 @@
 # microservice app
 run program
 1. download axonserver: link download: https://download.axoniq.io/axonserver/axonserver-enterprise-2023.1.2-bin.zip
-2. run axon(cmd)(port: 8024): D:\AxonServer-2023.1.2 -> cmd -> run: java -jar axonserver.jar ,
+2. run axon(cmd)(port: 8024): D:\AxonServer-2023.1.2 -> cmd -> run: java -jar axonserver.jar 
 3. run class DiscoverserverApplication
 4. run h2_drive
 5. run file pom.xml & run class BookserviceApplication, port 9001

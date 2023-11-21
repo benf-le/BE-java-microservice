@@ -28,6 +28,8 @@ public class BookEventsHandler {
 	       book.setAuthor(event.getAuthor());
 	       book.setName(event.getName());
 	       book.setIsReady(event.getIsReady());
+		   book.setImageUrl(event.getImageUrl());
+		   book.setPrice(event.getPrice());
 	        bookRepository.save(book);
     }
 	@EventHandler
