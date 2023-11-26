@@ -37,7 +37,7 @@ public class EmployeeCommandController {
 	@PostMapping
 	public String addEmployee(@RequestBody EmployeeRequestModel model) {
 		CreateEmployeeCommand command =
-			new CreateEmployeeCommand(UUID.randomUUID().toString(),model.getFirstName(), model.getLastName(), model.getKin(), false, model.getRole(), true);
+			new CreateEmployeeCommand(UUID.randomUUID().toString(),model.getFirstName(), model.getLastName(), model.getKin(), false, model.getRole());
 		
 		commandGateway.sendAndWait(command);
 		
@@ -46,7 +46,7 @@ public class EmployeeCommandController {
 	@PutMapping
 	public String updateEmployee(@RequestBody EmployeeRequestModel model) {
 		UpdateEmployeeCommand command =
-				new UpdateEmployeeCommand(model.getEmployeeId(),model.getFirstName(),model.getLastName(),model.getKin(),model.getIsDisciplined(), model.getRole(), true);
+				new UpdateEmployeeCommand(model.getEmployeeId(),model.getFirstName(),model.getLastName(),model.getKin(),model.getIsDisciplined(), model.getRole());
 		commandGateway.sendAndWait(command);
 		return "employee updated";
 	}

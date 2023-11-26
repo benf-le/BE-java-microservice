@@ -9,7 +9,7 @@ public class EmployeeRequestModel {
 	private Boolean isDisciplined;
 
 	private String role;
-	private Boolean status;
+
 	
 	
 	public String getKin() {
@@ -52,11 +52,5 @@ public class EmployeeRequestModel {
 		this.role = role;
 	}
 
-	public Boolean getStatus() {
-		return status;
-	}
-
-	public void setStatus(Boolean status) {
-		this.status = status;
-	}
+	
 }

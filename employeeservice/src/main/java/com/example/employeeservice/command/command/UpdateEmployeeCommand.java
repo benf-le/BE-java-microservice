@@ -11,9 +11,9 @@ public class UpdateEmployeeCommand {
 	private Boolean isDisciplined;
 
 	private String role;
-	private Boolean status;
+
 	public UpdateEmployeeCommand(String employeeId, String firstName, String lastName, String kin,
-			Boolean isDisciplined, String role, Boolean status) {
+			Boolean isDisciplined, String role) {
 		super();
 		this.employeeId = employeeId;
 		this.firstName = firstName;
@@ -21,7 +21,7 @@ public class UpdateEmployeeCommand {
 		this.kin = kin;
 		this.isDisciplined = isDisciplined;
 		this.role = role;
-		this.status = status;
+
 	}
 	public String getEmployeeId() {
 		return employeeId;
@@ -62,11 +62,5 @@ public class UpdateEmployeeCommand {
 		this.role = role;
 	}
 
-	public Boolean getStatus() {
-		return status;
-	}
 
-	public void setStatus(Boolean status) {
-		this.status = status;
-	}
 }

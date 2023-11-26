@@ -27,7 +27,6 @@ public class EmployeeEventsHandler {
 		employee.setKin(event.getKin());
 		employee.setIsDisciplined(event.getIsDisciplined());
 		employee.setRole(event.getRole());
-		employee.setStatus(event.getStatus());
 		employeeRepository.save(employee);
 	}
 	@EventHandler
