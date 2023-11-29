@@ -1,0 +1,49 @@
+
+{
+    "name": "Rèn luyện tư duy phản biện",
+    "author":" Albert Rutherford",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/94a2733cc706ee029b1f1dcdcd688f3f",
+    "price": 59000
+
+}
+
+
+{
+    "name": "Tạo Dựng Thương Hiệu Cá Nhân",
+    "author":" Yamamoto Hideyuki",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/08f1628645949e871edabacb7c81ee1f",
+    "price": 65000
+
+}
+
+{
+    "name": "Thần Số Học Ứng Dụng",
+    "author":"Joy WoodWard",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/91acbea1e7a90fbb1d544fc120678f55",
+    "price": 76000
+
+}
+
+{
+    "name": "Agile Marketing",
+    "author":"Andrea Fryrear",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-logn23veklh3be",
+    "price": 189000
+
+}
+
+{
+    "name": "Quản lý cảm xúc, làm chủ lý trí",
+    "author":"Steven Sloman & Philip Fernbach ",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-50009109-e83ccf13961e86c221fa7187cd6e068f",
+    "price": 109000
+
+}
+
+{
+    "name": "Thao túng tâm lý ",
+    "author":"Nhiều tác giả",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-50009109-e83ccf13961e86c221fa7187cd6e068f",
+    "price": 100000
+
+}
