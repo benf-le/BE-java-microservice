@@ -11,8 +11,8 @@ run program
 9. - C:\kafka_2.13-3.2.0\bin\windows => turn on kafka in cmd: C:\kafka_2.13-3.2.0\bin\windows\cmd
    - run cmd => zookeeper-server-start.bat C:\kafka_2.13-3.2.0\config\zookeeper.properties
    - run cmd => kafka-server-start.bat C:\kafka_2.13-3.2.0\config\server.properties
-   - run cmd => kafka-topics.bat --create --topic your-name-topic --bootstrap-server localhost:9092
-   - run cmd => kafka-topics.bat --list --bootstrap-server localhost:9092
+   - (option)run cmd => kafka-topics.bat --create --topic your-name-topic --bootstrap-server localhost:9092
+   - (option)run cmd => kafka-topics.bat --list --bootstrap-server localhost:9092
    - khi chạy code thì bật kafka-server-start.bat C:\kafka_2.13-3.2.0\config\server.properties
 
 
