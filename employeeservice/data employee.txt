@@ -1,0 +1,16 @@
+{
+    "firstName": "Jenifer",
+    "lastName": "Kenly",
+    "kin":"2",
+    "role":"Dev",
+    "isDisciplined": false
+
+},
+{
+    "firstName": "Jack",
+    "lastName": "Key",
+    "kin":"1",
+    "role":"UI/UX",
+    "isDisciplined": false
+
+}
