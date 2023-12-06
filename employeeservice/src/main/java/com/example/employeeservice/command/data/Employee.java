@@ -11,6 +11,12 @@ public class Employee {
 	private String employeeId;
 	private String firstName;
 	private String lastName;
+	private String avatarUrl;
+
+	private String department;
+
+
+
 	private String kin;
 	private Boolean isDisciplined;
 
@@ -23,6 +29,22 @@ public class Employee {
 	}
 	public void setEmployeeId(String employeeId) {
 		this.employeeId = employeeId;
+	}
+
+	public String getAvatarUrl() {
+		return avatarUrl;
+	}
+
+	public void setAvatarUrl(String avatarUrl) {
+		this.avatarUrl = avatarUrl;
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
 	}
 	public String getFirstName() {
 		return firstName;

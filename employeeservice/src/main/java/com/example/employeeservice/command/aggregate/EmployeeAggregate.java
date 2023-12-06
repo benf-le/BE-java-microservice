@@ -20,6 +20,11 @@ public class EmployeeAggregate {
 	private String employeeId;
 	private String firstName;
 	private String lastName;
+
+	private String avatarUrl;
+
+	private String department;
+
 	private String kin;
 	private Boolean isDisciplined;
 
@@ -51,6 +56,8 @@ public class EmployeeAggregate {
 		this.employeeId = event.getEmployeeId();
 		this.firstName = event.getFirstName();
 		this.lastName = event.getLastName();
+		this.avatarUrl = event.getAvatarUrl();
+		this.department = event.getDepartment();
 		this.kin = event.getKin();
 		this.isDisciplined = event.getIsDisciplined();
 		this.role = event.getRole();
@@ -61,6 +68,8 @@ public class EmployeeAggregate {
 		this.employeeId = event.getEmployeeId();
 		this.firstName = event.getFirstName();
 		this.lastName = event.getLastName();
+		this.avatarUrl = event.getAvatarUrl();
+		this.department = event.getDepartment();
 		this.kin = event.getKin();
 		this.isDisciplined = event.getIsDisciplined();
 		this.role = event.getRole();

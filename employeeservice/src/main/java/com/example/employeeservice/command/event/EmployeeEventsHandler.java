@@ -24,6 +24,8 @@ public class EmployeeEventsHandler {
 		Employee employee = employeeRepository.getById(event.getEmployeeId());
 		employee.setFirstName(event.getFirstName());
 		employee.setLastName(event.getLastName());
+		employee.setAvatarUrl(event.getAvatarUrl());
+		employee.setDepartment(event.getDepartment());
 		employee.setKin(event.getKin());
 		employee.setIsDisciplined(event.getIsDisciplined());
 		employee.setRole(event.getRole());

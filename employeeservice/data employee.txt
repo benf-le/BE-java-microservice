@@ -2,71 +2,100 @@
     {
         "firstName": "Jenifer",
         "lastName": "Kenly",
+        "avatarUrl": "https://example.com/avatar1",
+        "department": "IT",
         "kin": "2",
         "role": "Dev",
+        "isDisciplined": false
+    },
+    {
+        "firstName": "John",
+        "lastName": "Smith",
+        "avatarUrl": "https://example.com/avatar2",
+        "department": "HR",
+        "kin": "1",
+        "role": "QA",
+        "isDisciplined": true
+    },
+    {
+        "firstName": "Emma",
+        "lastName": "Johnson",
+        "avatarUrl": "https://example.com/avatar3",
+        "department": "Marketing",
+        "kin": "3",
+        "role": "PM",
         "isDisciplined": false
     },
     {
         "firstName": "Michael",
-        "lastName": "Johnson",
-        "kin": "1",
-        "role": "QA",
-        "isDisciplined": true
-    },
-    {
-        "firstName": "Alex",
-        "lastName": "Smith",
-        "kin": "3",
-        "role": "PM",
-        "isDisciplined": false
-    },
-    {
-        "firstName": "Sophia",
         "lastName": "Brown",
+        "avatarUrl": "https://example.com/avatar4",
+        "department": "Finance",
         "kin": "4",
         "role": "Dev",
         "isDisciplined": true
+    },
+    {
+        "firstName": "Sophia",
+        "lastName": "Davis",
+        "avatarUrl": "https://example.com/avatar5",
+        "department": "IT",
+        "kin": "2",
+        "role": "QA",
+        "isDisciplined": false
     },
     {
         "firstName": "Daniel",
         "lastName": "Miller",
-        "kin": "2",
-        "role": "QA",
-        "isDisciplined": false
-    },
-    {
-        "firstName": "Emily",
-        "lastName": "Davis",
+        "avatarUrl": "https://example.com/avatar6",
+        "department": "Marketing",
         "kin": "1",
         "role": "PM",
         "isDisciplined": true
     },
     {
-        "firstName": "Ryan",
-        "lastName": "Johnson",
+        "firstName": "Olivia",
+        "lastName": "White",
+        "avatarUrl": "https://example.com/avatar7",
+        "department": "HR",
         "kin": "3",
         "role": "Dev",
         "isDisciplined": false
     },
     {
-        "firstName": "Olivia",
-        "lastName": "White",
+        "firstName": "William",
+        "lastName": "Martinez",
+        "avatarUrl": "https://example.com/avatar8",
+        "department": "Finance",
         "kin": "4",
         "role": "QA",
         "isDisciplined": true
     },
     {
-        "firstName": "William",
-        "lastName": "Martinez",
+        "firstName": "Ava",
+        "lastName": "Thompson",
+        "avatarUrl": "https://example.com/avatar9",
+        "department": "IT",
         "kin": "2",
         "role": "PM",
         "isDisciplined": false
     },
     {
-        "firstName": "Ava",
-        "lastName": "Thompson",
+        "firstName": "Ethan",
+        "lastName": "Taylor",
+        "avatarUrl": "https://example.com/avatar10",
+        "department": "Marketing",
         "kin": "1",
         "role": "Dev",
         "isDisciplined": true
+    },
+    {
+        "firstName": "Sophie",
+        "lastName": "Johnson",
+        "avatarUrl": "https://example.com/avatar11",
+        "department": "HR",
+        "kin": "3",
+        "role": "QA",
+        "isDisciplined": false
     }
 ]

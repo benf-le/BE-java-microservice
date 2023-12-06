@@ -4,6 +4,11 @@ public class EmployeeReponseModel {
 	private String employeeId;
 	private String firstName;
 	private String lastName;
+
+	private String avatarUrl;
+
+	private String department;
+
 	private String kin;
 	private Boolean isDisciplined;
 
@@ -27,6 +32,22 @@ public class EmployeeReponseModel {
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public String getAvatarUrl() {
+		return avatarUrl;
+	}
+
+	public void setAvatarUrl(String avatarUrl) {
+		this.avatarUrl = avatarUrl;
+	}
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
 	}
 	public String getKin() {
 		return kin;
