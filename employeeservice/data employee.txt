@@ -1,16 +1,72 @@
-{
-    "firstName": "Jenifer",
-    "lastName": "Kenly",
-    "kin":"2",
-    "role":"Dev",
-    "isDisciplined": false
-
-},
-{
-    "firstName": "Jack",
-    "lastName": "Key",
-    "kin":"1",
-    "role":"UI/UX",
-    "isDisciplined": false
-
-}
+[
+    {
+        "firstName": "Jenifer",
+        "lastName": "Kenly",
+        "kin": "2",
+        "role": "Dev",
+        "isDisciplined": false
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Johnson",
+        "kin": "1",
+        "role": "QA",
+        "isDisciplined": true
+    },
+    {
+        "firstName": "Alex",
+        "lastName": "Smith",
+        "kin": "3",
+        "role": "PM",
+        "isDisciplined": false
+    },
+    {
+        "firstName": "Sophia",
+        "lastName": "Brown",
+        "kin": "4",
+        "role": "Dev",
+        "isDisciplined": true
+    },
+    {
+        "firstName": "Daniel",
+        "lastName": "Miller",
+        "kin": "2",
+        "role": "QA",
+        "isDisciplined": false
+    },
+    {
+        "firstName": "Emily",
+        "lastName": "Davis",
+        "kin": "1",
+        "role": "PM",
+        "isDisciplined": true
+    },
+    {
+        "firstName": "Ryan",
+        "lastName": "Johnson",
+        "kin": "3",
+        "role": "Dev",
+        "isDisciplined": false
+    },
+    {
+        "firstName": "Olivia",
+        "lastName": "White",
+        "kin": "4",
+        "role": "QA",
+        "isDisciplined": true
+    },
+    {
+        "firstName": "William",
+        "lastName": "Martinez",
+        "kin": "2",
+        "role": "PM",
+        "isDisciplined": false
+    },
+    {
+        "firstName": "Ava",
+        "lastName": "Thompson",
+        "kin": "1",
+        "role": "Dev",
+        "isDisciplined": true
+    }
+]

@@ -35,7 +35,7 @@
 {
     "name": "Quản lý cảm xúc, làm chủ lý trí",
     "author":"Steven Sloman & Philip Fernbach ",
-    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-50009109-e83ccf13961e86c221fa7187cd6e068f",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/a9c5a715c3afa17f3b50177c5289e1c3",
     "price": 109000
 
 }
@@ -43,7 +43,39 @@
 {
     "name": "Thao túng tâm lý ",
     "author":"Nhiều tác giả",
-    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-50009109-e83ccf13961e86c221fa7187cd6e068f",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lockf97peqr7ed",
     "price": 100000
+
+}
+
+{
+    "name": "Đắc Nhân Tâm ",
+    "author":"Dale Carnegie",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-11134201-23030-z37im799jbov6d",
+    "price": 86000
+
+}
+
+{
+    "name": "Chiến Thắng Con Quỷ Trong Bạn",
+    "author":"Napolenon Hill",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-li2h4gkfawuq99",
+    "price": 990000
+
+}
+
+{
+    "name": "Tiếng anh cho người bắt đầu Moonbook",
+    "author":"Nhiều tác giả",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-11134601-7r98o-lkqjtvemgvnfd9",
+    "price": 149000
+
+}
+
+{
+    "name": "Từ Điển Tiếng "Em"",
+    "author":"Khotudien",
+    "imageUrl": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lnml22agjjsdbb",
+    "price": 49000
 
 }
