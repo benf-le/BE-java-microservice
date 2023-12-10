@@ -21,6 +21,9 @@
       <module name="bookservice" target="11" />
       <module name="borrowingservice" target="11" />
       <module name="commonservice" target="11" />
+      <module name="demo" target="17" />
+      <module name="demo1" target="17" />
+      <module name="demoweb" target="19" />
       <module name="discoveryserver" target="17" />
       <module name="employeeservice" target="11" />
       <module name="notificationservice" target="11" />
@@ -32,6 +35,9 @@
       <module name="bookservice" options="-parameters" />
       <module name="borrowingservice" options="-parameters" />
       <module name="commonservice" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo1" options="-parameters" />
+      <module name="demoweb" options="-parameters" />
       <module name="discoveryserver" options="-parameters" />
       <module name="employeeservice" options="-parameters" />
       <module name="notificationservice" options="-parameters" />
