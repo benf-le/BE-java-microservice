@@ -13,7 +13,10 @@ run program
    - run cmd => kafka-server-start.bat C:\kafka_2.13-3.2.0\config\server.properties
    - (option)run cmd => kafka-topics.bat --create --topic your-name-topic --bootstrap-server localhost:9092
    - (option)run cmd => kafka-topics.bat --list --bootstrap-server localhost:9092
-   
 
 
+Sơ đồ Event Source + CQRS trong Book Service:
+Command: Request Model -> Command -> Command Controller -> Aggregrate (Command Handler) -> Event -> Event Handler -> Repository -> Aggregrate (Event Sourcing Handler)
+
+Query: Query -> QueryController -> Projection (# Aggregrate) -> Repository -> Response Model (Return data)
 khi mà hàm addBook gửi cái command trong BookCommandController đc gọi thì nó sẽ nhảy qua CommandHandler bên class BookAggregate,
